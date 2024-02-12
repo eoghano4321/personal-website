@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route} from "react-router-dom";
-import About from "./About";
+import About from "./About.js";
 import CVPage from './CVPage.js';
 import Projects from "./Projects.js";
 import Home from "./Home.js";
