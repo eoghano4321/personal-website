@@ -1,4 +1,3 @@
-import NavBar from './components/NavBar'
 import { useNavigate } from "react-router-dom";
 import { Button } from 'react-bootstrap';
 
@@ -7,7 +6,6 @@ function Projects() {
   return (
     <>
       <div>
-        <NavBar></NavBar>
         <h1>Some of the projects I've been working on</h1>
         <div className="list-group">
             <Button className="list-group-item list-group-item-action"onClick={() => navigate('/Projects/ise')}>Immersive Software Engineering</Button>

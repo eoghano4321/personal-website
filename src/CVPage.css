@@ -6,7 +6,7 @@
 
 header {
     text-align: center;
-    background: transparent;
+    background: transparent !important;
 }
 
 h1 {
@@ -50,6 +50,7 @@ h1 {
 
 .cv-info {
     flex-direction: column;
+    text-align: left;
 }
 
 .cv-info p {
@@ -59,12 +60,14 @@ h1 {
 
 
 .edu-info p {
+    text-align: left;
     margin: 0;
     font-size: 1.0em;
     padding-left: 3%;
 }
 
 .cv-titles {
+    text-align: left;
     display: flex;
     flex-direction: column;
 }
@@ -77,6 +80,7 @@ h1 {
 }
 
 .edu p {
+    text-align: left;
     margin: 0;
     font-size: 1.0em;
     font-weight: bold;
