@@ -5,7 +5,6 @@ function Home() {
   return (
     <>
       <div>
-        <NavBar></NavBar>
         <section className="main-content">
         <div>
             <h1>Eoghan O'Mahony</h1>
