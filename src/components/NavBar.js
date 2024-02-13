@@ -3,7 +3,7 @@ function NavBar(){
     return(
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
+                <li><a href="/"><img src={process.env.PUBLIC_URL + '/logo.png'} alt="Home" ></img></a></li>
                 <li><a href="/#/about">About</a></li>
                 <li><a href="/#/cv">CV</a></li>
                 <li><a href="/#/projects">Projects</a></li>
