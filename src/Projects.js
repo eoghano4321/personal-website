@@ -11,9 +11,9 @@ function Projects() {
       <section className="projects">
         <h1>Some of the projects I've been working on</h1>
         <div className="list-group">
-            <Button className="list-group-item list-group-item-action"onClick={() => navigate('/#/Projects/ise')}>Immersive Software Engineering</Button>
-            <Button className="list-group-item list-group-item-action"onClick={() => navigate('/#/Projects/task-planning')}>Obsidian Task Planning</Button>
-            <Button className="list-group-item list-group-item-action"onClick={() => navigate('/#/Projects/gamedev')}>Game Development</Button>
+            <Button className="list-group-item list-group-item-action"onClick={() => navigate('/projects/ise')}>Immersive Software Engineering</Button>
+            <Button className="list-group-item list-group-item-action"onClick={() => navigate('/projects/task-planning')}>Obsidian Task Planning</Button>
+            <Button className="list-group-item list-group-item-action"onClick={() => navigate('/projects/gamedev')}>Game Development</Button>
         </div>
       </section >
     </>

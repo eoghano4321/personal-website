@@ -32,18 +32,20 @@ class Contact extends Component {
             .then(
                 () => {
                 console.log('SUCCESS!');
+            
+                // Clears the form after sending the email
+                e.target.reset();
+                this.captchaRef.current.reset();
+                this.setState({
+                    verified: false
+                });
                 },
                 (error) => {
                 console.log('FAILED...', error.text);
+                alert('Failed to send email. Please try again later.');
+
                 },
             );
-            
-            // Clears the form after sending the email
-            e.target.reset();
-            this.captchaRef.current.reset();
-            this.setState({
-                verified: false
-            });
     };
 
 
@@ -51,7 +53,12 @@ class Contact extends Component {
         return (
             <>
             <NavBar />
+            
+            <div className="social-links">
+                    <a href="https://www.linkedin.com/in/eoghan-o-mahony1/"><img src={process.env.PUBLIC_URL + '/linkedin.png'} width={32} height={32}></img></a>
+            </div>
             <section className="container">
+                <h1>Contact Me</h1>
                 <form ref={this.form} onSubmit={this.sendEmail}>
                     <div className="row">
                         <div className="col-25">

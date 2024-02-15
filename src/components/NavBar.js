@@ -4,7 +4,6 @@ function NavBar(){
         <nav className='navbar'>
             <ul>
                 <li><a href="/"><img src={process.env.PUBLIC_URL + '/logo.png'} alt="Home" ></img></a></li>
-                <li><a href="/#/about">About</a></li>
                 <li><a href="/#/cv">CV</a></li>
                 <li><a href="/#/projects">Projects</a></li>
                 <li><a href="/#/contact">Contact</a></li>
