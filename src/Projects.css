@@ -1,0 +1,25 @@
+.projects{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+  
+.projects h1{
+text-align: center;
+color: white;
+padding-bottom: 5%;
+}
+
+.list-group {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+  
+.projects header {
+background-color: black;
+padding: 15px 0;
+}

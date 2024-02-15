@@ -1,7 +1,11 @@
 import './CVPage.css';
+import NavBar from './components/NavBar';
 
 function CVPage() {
     return (
+        <>
+        
+      <NavBar />
         <div className="cv-container">
             {/* Top section with name and contact details */}
             <header>
@@ -114,6 +118,8 @@ function CVPage() {
                 </div>
             </section>
         </div>
+        
+        </>
     );
 }
 

@@ -1,6 +1,10 @@
+import NavBar from "./components/NavBar";
+import './About.css';
 function Home() {
   return (
     <>
+    
+    <NavBar />
       <div>
         <section className="main-content">
         <div>

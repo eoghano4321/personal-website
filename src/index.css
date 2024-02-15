@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: black;
+  height: 100%;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,13 +14,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
 a:hover {
-  color: #535bf2;
+  color: goldenrod;
 }
 
 body {
@@ -28,7 +24,7 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: black;
   padding: 15px 0;
 }
 
@@ -36,6 +32,14 @@ h1{
   color: white;
   text-align: left;
   padding-bottom: 5%;
+}
+
+.title{
+  color: white;
+  text-shadow: rgb(105, 105, 105) 0px 2px; 
+  text-align: left;
+  padding-bottom: 5%;
+  font-size: xx-large;  
 }
 
 nav {
@@ -97,7 +101,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: goldenrod;
 }
 button:focus,
 button:focus-visible {
@@ -115,4 +119,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} 

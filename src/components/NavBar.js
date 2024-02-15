@@ -1,7 +1,7 @@
 import './NavBar.css'
 function NavBar(){
     return(
-        <nav>
+        <nav className='navbar'>
             <ul>
                 <li><a href="/"><img src={process.env.PUBLIC_URL + '/logo.png'} alt="Home" ></img></a></li>
                 <li><a href="/#/about">About</a></li>

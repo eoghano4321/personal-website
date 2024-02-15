@@ -1,0 +1,22 @@
+.main_content {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: left;
+    padding: 50px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+  }
+  
+.content_text {
+    padding-top: 5%;
+    max-width: 600px;
+    margin-right: 20px;
+}
+
+.content_image img {
+    padding-top: 5%;
+    max-width: 100%;
+    height: auto;
+  }
