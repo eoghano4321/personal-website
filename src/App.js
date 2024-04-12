@@ -9,6 +9,7 @@ import Ise from './Ise.js';
 import './App.css';
 import ObsProj from "./ObsProj.js";
 import GameDev from "./GameDev.js";
+import SignUp from "./SignUp.js";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path="projects/ise" element={<Ise />} />
         <Route path="projects/task-planning" element={<ObsProj />} />
         <Route path="projects/gamedev" element={<GameDev />} />
+        <Route path="projects/SignUp" element={<SignUp />} />
     </Routes>
   );
 }

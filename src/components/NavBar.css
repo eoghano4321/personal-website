@@ -14,7 +14,8 @@
 }
 
 .navbar ul li{
-    padding: 0 15px;
+    /* space out evenly accross screen width */
+    width: 100%;
     display: inline-block;
 }
 

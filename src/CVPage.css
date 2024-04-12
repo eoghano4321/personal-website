@@ -1,5 +1,5 @@
 .cv-container {
-    padding: 5% 15% 15% 15%;
+    padding: 5% 15% 30% 15%;
     background-image: linear-gradient(to bottom right,  black, grey);
     color: white;
 }
@@ -19,8 +19,8 @@
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid white;
-    padding-bottom: 20px;
-    margin-bottom: 20px;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 .contact-details {
@@ -39,13 +39,13 @@
 
 .contact-separator {
     width: 1px;
-    height: 50px;
+    height: 20%;
 }
 
 .cv-details {
     display: inline-grid;
     grid-template-columns: 1fr 2fr; /* Equal width columns */
-    gap: 30px 50px; /* Adjust the gap as needed */
+    gap: 3% 5% /* Adjust the gap as needed */
 }
 
 .cv-info {
@@ -62,7 +62,7 @@
 .edu-info p {
     text-align: left;
     margin: 0;
-    font-size: 1.0em;
+    font-size: 1.1em;
     padding-left: 3%;
 }
 

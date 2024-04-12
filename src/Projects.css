@@ -7,21 +7,18 @@
 }
   
 .projects h1{
+    background-color: black;
 text-align: center;
 color: white;
-padding-bottom: 5%;
+padding-top: 2%;
+padding-bottom: 3%;
 }
 
 .list-group {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
-    justify-content: center;
-    align-items: center;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     font-family: 'RandyGGRegular' !important;
-}
-  
-.projects header {
-background-color: black;
-padding: 15px 0;
+    gap: 1%;
 }
