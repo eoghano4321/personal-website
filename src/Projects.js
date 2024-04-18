@@ -5,6 +5,7 @@ import './Projects.css';
 
 function Projects() {
   const navigate = useNavigate();
+  
   return (
     <>
         <NavBar />

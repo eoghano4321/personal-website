@@ -2,8 +2,9 @@ import './index.css';
 import NavBar from './components/NavBar';
 
 function Home() {
+  
   return (
-    <section className="home-page">
+    <section className='home-page'>
     <NavBar />
       <div>
         <section className='main-content'>

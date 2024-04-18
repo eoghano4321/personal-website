@@ -4,6 +4,7 @@ function Home() {
   return (
     <>
     
+    
     <NavBar />
       <div>
         <section className="main-content">

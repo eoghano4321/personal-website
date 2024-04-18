@@ -1,6 +1,9 @@
 import NavBar from "./components/NavBar";
 import './About.css';
+
+
 function ObsProj() {
+  
   return (
     <>
     

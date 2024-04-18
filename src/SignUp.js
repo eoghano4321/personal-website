@@ -1,9 +1,24 @@
 import './index.css';
 import NavBar from './components/NavBar';
+import { useEffect } from 'react';
 
-function SignUp() {
-  return (
-    <section className="signup-home-page">
+function SignUp() {const GoogleTagManager = () => {
+  useEffect(() => {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      window.dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-1KK26BQQTK');
+  }, []);
+}
+
+return (
+  <section className="signup-home-page">
+  
+    {/* Google Tag */}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KK26BQQTK"></script>
     <NavBar />
       <div>
         <section className='signup-main-content'>

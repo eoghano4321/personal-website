@@ -1,9 +1,10 @@
 import './CVPage.css';
 import NavBar from './components/NavBar';
 
+
 function CVPage() {
     return (
-        <>
+    <>
         
       <NavBar />
         <div className="cv-container">
