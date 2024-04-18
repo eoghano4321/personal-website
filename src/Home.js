@@ -17,7 +17,7 @@ function Home() {
             </div>
         </div>
         <div className="content-image">
-            <img src={process.env.PUBLIC_URL + '/me.png'} alt="Description of your image" width={312} height={312}></img>
+            <img src={process.env.PUBLIC_URL + '/me.png'} alt="Eoghan O'Mahony" width={312} height={312}></img>
         </div>
         </section>
       </div>
